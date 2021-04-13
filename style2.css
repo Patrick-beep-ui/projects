@@ -1,0 +1,175 @@
+body {
+    background-color : black;
+}
+
+.index {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+#index {
+  color: rgb(16, 123, 194);
+  font-size: 20px;
+  font-family: sans;
+  font-weight: 200;
+  text-transform: uppercase;
+  flex-direction: row;
+  flex: 1;
+  min-width: 250px;
+ }
+
+.navigation ul {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  align-items: center;
+  text-align: center;
+  line-height: 60px;
+  flex-grow: 1;
+  flex-shrink: 2;
+}
+
+.navigation li {
+  color: rgb(16, 123, 194);
+  font-size: 20px;
+  font-family: sans;
+  font-weight: 200;
+  opacity: 30%;
+  min-height: 75%;
+  min-width: 100%;
+   flex-grow: 2;
+  flex-shrink: 1;
+  flex-basis: 75px;
+
+}
+
+.navigation li.logo {
+  color: rgb(16, 123 , 194);
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 100%;
+  letter-spacing: 4px;
+  flex-shrink: 1;
+}
+
+
+#logo {
+  color: rgb(16, 123 , 194);
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 100%;
+  letter-spacing: 4px;
+}
+
+#banner {
+    background-image: url(https://github.com/FaztWeb/technews-html/blob/master/img/showcase2.jpg?raw=true);
+    height: 600px;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    padding: auto;
+}
+
+#content {
+  display: flex;
+  flex-grow: 2;
+  flex-shrink: 1;
+    position: relative;
+    top: 25%;
+    text-align: center;
+    border: 3px solid white;
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+#content h1 {
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  padding: auto;
+}
+
+.content {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 400px;
+    height: 1000px;
+    overflow: scroll;
+    color:rgb(16, 123 , 194);
+}
+
+h2 {
+    border: 1px dotted rgb(16, 123 , 194);
+    color: rgb(16, 123 , 194);
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: rgb(16, 123 , 194);
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  
+  p {
+    color: grey;
+    font-size: 16px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+  }
+  
+  .pull-quote {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .byline {
+    border-bottom: 1px solid LightGrey;
+    border-top: 1px solid LightGrey;
+    color: DarkGrey;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-basis: 50px;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+    
+  .item2 {
+    background:rgb(16, 123 , 194);
+    border: 1px solid rgb(16, 123 , 194);
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .share a:hover {
+    background: white;
+    border: 1px solid rgb(16, 123 , 194);
+    color: rgb(16, 123 , 194);
+     }
